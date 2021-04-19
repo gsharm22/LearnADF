@@ -1,0 +1,35 @@
+{
+	"name": "parameter_out",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gauravdatalake",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Output": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Parameter_pipe"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().Output",
+					"type": "Expression"
+				},
+				"fileSystem": "powerbifiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

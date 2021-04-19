@@ -1,0 +1,23 @@
+{
+	"name": "BinaryDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gauravdatalake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Copy_pip"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "NewFile",
+				"folderPath": "Adttest",
+				"fileSystem": "powerbifiles"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

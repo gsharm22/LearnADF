@@ -1,0 +1,9 @@
+{
+	"name": "LEARNADFFAST",
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0fdafaee-dbcf-419b-9f9a-3ee0f2997bc0",
+		"tenantId": "8c718504-262e-44cb-a7af-baa72202a7d0"
+	}
+}

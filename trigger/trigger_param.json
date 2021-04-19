@@ -1,0 +1,17 @@
+{
+	"name": "trigger_param",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 15,
+				"startTime": "2021-04-13T17:14:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

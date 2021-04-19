@@ -1,0 +1,22 @@
+{
+	"name": "BinarySource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gauravstorageadf",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Copy_pip"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Gaurav_Resume.docx",
+				"container": "adftesting"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
