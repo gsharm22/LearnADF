@@ -5,6 +5,9 @@
 			"referenceName": "gauravstorageadf",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "ForEach_pipe"
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
