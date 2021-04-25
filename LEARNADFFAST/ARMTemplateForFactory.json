@@ -162,7 +162,7 @@
 									"userProperties": [],
 									"typeProperties": {
 										"expression": {
-											"value": "@or(item().equals(\"Consumer\"),item().equals(\"Home Office\"))",
+											"value": "@or(equals(item(),'Consumer'),equals(item(),'Home Office'))",
 											"type": "Expression"
 										},
 										"ifTrueActivities": [
