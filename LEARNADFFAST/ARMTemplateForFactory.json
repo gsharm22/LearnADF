@@ -106,6 +106,10 @@
 						]
 					}
 				],
+				"policy": {
+					"elapsedTimeMetric": {},
+					"cancelAfter": {}
+				},
 				"parameters": {
 					"InputFileName": {
 						"type": "string"
@@ -248,6 +252,10 @@
 						}
 					}
 				],
+				"policy": {
+					"elapsedTimeMetric": {},
+					"cancelAfter": {}
+				},
 				"parameters": {
 					"Test": {
 						"type": "string",
@@ -327,6 +335,10 @@
 						]
 					}
 				],
+				"policy": {
+					"elapsedTimeMetric": {},
+					"cancelAfter": {}
+				},
 				"annotations": [],
 				"lastPublishTime": "2021-04-11T17:19:00Z"
 			},
@@ -445,6 +457,9 @@
 						"type": "string"
 					}
 				},
+				"folder": {
+					"name": "ForEach_pipe"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -475,6 +490,9 @@
 				"linkedServiceName": {
 					"referenceName": "gauravstorageadf",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "ForEach_pipe"
 				},
 				"annotations": [],
 				"type": "Excel",
